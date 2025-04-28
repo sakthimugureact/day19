@@ -1,0 +1,19 @@
+.tools{
+    animation-name: datas;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+@keyframes datas {
+    0%{
+        color: black;
+    }
+    50%{
+        color: red;
+    }
+    70%{
+        color: blue;
+    }
+    100%{
+        color: green;
+    }
+}
